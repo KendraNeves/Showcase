@@ -37,11 +37,12 @@ form{
 }
 
 .jumbo{
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 40px;
     color: #d1e3ec;
     padding: 20px; 
     line-height: 2;
+    height: 90%;
 }
 
 .jumbo h1{
