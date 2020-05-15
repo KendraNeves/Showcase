@@ -104,4 +104,7 @@ footer {
 
 a {
   color:	#887c6f !important;
+  text-decoration: underline !important;
+  font-size: larger;
+  font-weight: bold;
 }
