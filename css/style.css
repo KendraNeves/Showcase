@@ -93,7 +93,15 @@ footer {
 }
 
 .text-brown {
-  color:	#73502a;
+  color:	#887c6f;
   font-family:'Cabin Sketch', cursive;
   font-weight: 700;
+}
+
+.git-hub {
+  margin-bottom: 0;
+}
+
+a {
+  color:	#887c6f !important;
 }
