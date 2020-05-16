@@ -6,12 +6,12 @@ $(document).ready(function(){
     $(".card-columns").append(
     `
         <div class="card bg-ltblue mb-3 shadow-lg">
-          <img class="card-img-top">
+          <img class="card-img-top" src="${card.image}" alt="${card.imageAlt}">
           <div class="card-body">
-            <h5 class="card-title"><a class="text-brown title" target="_blank">${card.title}</a></h5>
-            <p class="card-text text-blue info"></p>
-            <a target="_blank"><img src="../assets/GitHub-Mark/PNG/GitHub-Mark-32px.png" width="25"><img src="../assets/GitHub-Logos/GitHub_Logo.png" width="50"></a>
-            <p class="card-text datePosted"><small class="text-muted"></small></p>
+            <h5 class="card-title"><a class="text-brown title" target="_blank" href="${card.link}">${card.title}</a></h5>
+            <p class="card-text text-blue info">${card.info}</p>
+            <a target="_blank" href="${card.gitHubLink}"><img src="../assets/brown-github-mark.png" width="25"><img src="../assets/brown-github-logo.png" width="50"></a>
+            <p class="card-text datePosted"><small class="text-muted">${card.datePosted}</small></p>
           </div>
         </div>
     `
@@ -28,7 +28,7 @@ let cardList = [
     "imageAlt": "nutmeg concrete website",
     "link": "https://nutmegconcrete.com/",
     "info": "This card has supporting text below as a natural lead-in to additional content",
-    "gitHubLink": "",
+    "gitHubLink": "blahblahblah",
     "datePosted": "Posted December 11, 2019"
   },
 
