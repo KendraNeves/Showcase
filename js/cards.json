@@ -1,0 +1,31 @@
+[
+  {
+    "title":"Nutmeg Concrete",
+    "image": "../assets/nutmeg-concrete.PNG",
+    "imageAlt": "nutmeg concrete website",
+    "link": "https://nutmegconcrete.com/",
+    "info": "This card has supporting text below as a natural lead-in to additional content",
+    "gitHubLink": "",
+    "datePosted": "Posted December 11, 2019"
+  },
+
+  {
+  "title":"",
+  "image": "",
+  "imageAlt": "",
+  "link": "",
+  "info": "",
+  "gitHubLink": "",
+  "datePosted": ""
+  },
+
+  {
+    "title":"",
+    "image": "",
+    "imageAlt": "",
+    "link": "",
+    "info": "",
+    "gitHubLink": "",
+    "datePosted": ""
+  }
+]
