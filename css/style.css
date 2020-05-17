@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bad+Script&family=Bellota:wght@400;700&family=Catamaran:wght@100;200;300;400;500;600;700;800&family=Dosis:wght@400;500;600;700;800&family=Righteous&display=swap');
+
 
 body, html {
     margin: 0;
@@ -7,7 +8,7 @@ body, html {
     width: 100%;
   }
 
-  .bg {
+.bg {
     /* The image used */
     background-image: url("../assets/back-2.jpg");    /* BACKGROUND IMAGE!!! */
   
@@ -21,6 +22,9 @@ body, html {
     background-attachment: fixed;
 }
 
+.navbar {
+  background-color: #F7CCBB;
+}
 
 form{
    margin-top: 100px;
@@ -30,7 +34,7 @@ form{
     margin-top: 50px;
     font-size: 20px;
     background-color: aliceblue;
-    color: #343a40;
+    color: #887c6f;
     opacity: 0.65;
     padding: 20px;
     border-radius: 5px;
@@ -54,19 +58,15 @@ form{
 
 .statement{
   margin-top: 40px;
-  font-family:'Cabin Sketch', cursive;
+  color:aliceblue;
+
+  font-family: 'Catamaran', sans-serif;
+  /* font-family: 'Dosis', sans-serif; */
 }
 
 .btn-info{
     margin-right: 10px;
 }
-
-/* 
-footer {
-  background-color: aliceblue;
-  width: 100%;
-  height: 75px;
-} */
 
 .row-custom{
     display: flex;
@@ -74,28 +74,10 @@ footer {
     height: 100%;
 }
 
-/* .container-custom{
-    width: 100%;
-    height: 100%;
-} */
-
-.bg-ltblue {
-  background-color:#d1e3ec !important;
-}
-
-.bg-aliceblue{
-  background-color: aliceblue;
-}
 
 .text-blue{
   color: #16b3b7; 
   
-}
-
-.text-brown {
-  color:	#887c6f;
-  font-family:'Cabin Sketch', cursive;
-  font-weight: 700;
 }
 
 .git-hub {
@@ -103,8 +85,20 @@ footer {
 }
 
 a {
-  color:	#887c6f !important;
-  text-decoration: underline !important;
   font-size: larger;
-  font-weight: bold;
+  font-weight: 500;
+  /* font-family: 'Bellota', cursive; */
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Amaranth', sans-serif;
+  color: #88776F !important;
+
+}
+
+a.title {
+  color:	#88776F !important;
+  font-size: 1.75rem;
+  font-family: 'Amaranth', sans-serif;
+  /* font-family: 'Catamaran', sans-serif; */
+  /* font-family: 'Dosis', sans-serif; */
+
 }
