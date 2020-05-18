@@ -5,7 +5,7 @@ $(document).ready(function(){
   cardList.forEach( function (card) {
     $(".card-columns").append(
     `
-        <div class="card mt-5 shadow-lg">
+        <div class="card mt-5 shadow-sm">
           <a href="${card.link}"><img class="card-img-top" src="${card.image}" alt="${card.imageAlt}"></a>
           <div class="card-body">
             <h5 class="card-title"><a class="text-brown title" target="_blank" href="${card.link}">${card.title}</a></h5>
