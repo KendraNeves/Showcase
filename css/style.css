@@ -93,10 +93,17 @@ a {
 }
 
 a.title {
-  color:	#88776F !important;
+  color:	rgba(0,0,0,.9) !important;
   font-size: 1.75rem;
   font-family: 'Amaranth', sans-serif;
   /* font-family: 'Catamaran', sans-serif; */
   /* font-family: 'Dosis', sans-serif; */
+}
 
+.card {
+  background-color: #F7CCBB !important;
+}
+
+.card-columns {
+  column-gap: 3rem !important;
 }
