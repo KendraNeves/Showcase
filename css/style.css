@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bad+Script&family=Bellota:wght@400;700&family=Catamaran:wght@100;200;300;400;500;600;700;800&family=Dosis:wght@400;500;600;700;800&family=Righteous&display=swap');
 
-
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow-x:hidden;
   }
 
 .bg {
@@ -58,7 +58,7 @@ form{
 
 .statement{
   margin-top: 40px;
-  color:aliceblue;
+  color:white;
 
   font-family: 'Catamaran', sans-serif;
   /* font-family: 'Dosis', sans-serif; */
@@ -90,8 +90,6 @@ a {
   /* font-family: 'Bellota', cursive; */
   /* font-family: 'Dosis', sans-serif; */
   font-family: 'Amaranth', sans-serif;
-  color: #88776F !important;
-
 }
 
 a.title {
