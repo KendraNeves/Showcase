@@ -1,87 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bad+Script&family=Bellota:wght@400;700&family=Catamaran:wght@100;200;300;400;500;600;700;800&family=Dosis:wght@400;500;600;700;800&family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bad+Script&family=Bellota:wght@400;700&family=Catamaran:wght@100;200;300;400;500;600;700;800&family=Dosis:wght@400;500;600;700;800&family=Righteous&display=swap");
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow-x:hidden;
-  }
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .bg {
-    /* The image used */
-    background-image: url("../assets/back-2.jpg");    /* BACKGROUND IMAGE!!! */
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  /* The image used */
+  background-image: url("../assets/back-2.jpg"); /* BACKGROUND IMAGE!!! */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar {
-  background-color: #F7CCBB;
+  background-color: #f7ccbb;
 }
 
-form{
-   margin-top: 100px;
+form {
+  margin-top: 100px;
 }
 
-.bg-opaque{
-    margin-top: 50px;
-    font-size: 20px;
-    background-color: aliceblue;
-    color: #887c6f;
-    opacity: 0.65;
-    padding: 20px;
-    border-radius: 5px;
+.bg-opaque {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: aliceblue;
+  color: #887c6f;
+  opacity: 0.65;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-.jumbo{
-    font-size: 40px;
-    color: #d1e3ec;
-    padding: 20px; 
-    line-height: 2;
-    height: 90%;
+.jumbo {
+  font-size: 40px;
+  color: #d1e3ec;
+  padding: 20px;
+  line-height: 2;
+  height: 90%;
 }
 
-.jumbo h1{
-    font-size: 6.5rem;
-    font-family: 'Bad Script', cursive;
-    color: #f4ed46;
-    transform: rotate(-7deg)
+.jumbo h1 {
+  font-size: 6.5rem;
+  font-family: "Bad Script", cursive;
+  color: #f4ed46;
+  transform: rotate(-7deg);
 }
 
-.statement{
+.statement {
   margin-top: 40px;
-  color:white;
+  color: white;
 
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Special Elite", cursive;
   /* font-family: 'Dosis', sans-serif; */
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 10s steps(90, end);
+  transition: all cubic-bezier(0.1, 0.7, 1, 0.1);
+  white-space: nowrap;
 }
 
-.rounded-circle{
+.rounded-circle {
   border: 3px solid #fff;
   padding: 0 0 0 0 !important;
 }
 
-.btn-info{
-    margin-right: 10px;
+.btn-info {
+  margin-right: 10px;
 }
 
-.row-custom{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+.row-custom {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
-
-.text-blue{
-  color: #16b3b7; 
-  
+.text-blue {
+  color: #16b3b7;
 }
 
 .git-hub {
@@ -93,19 +97,19 @@ a {
   font-weight: 500;
   /* font-family: 'Bellota', cursive; */
   /* font-family: 'Dosis', sans-serif; */
-  font-family: 'Amaranth', sans-serif;
+  font-family: "Amaranth", sans-serif;
 }
 
 a.title {
-  color:	rgba(0,0,0,.9) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   font-size: 1.75rem;
-  font-family: 'Amaranth', sans-serif;
+  font-family: "Amaranth", sans-serif;
   /* font-family: 'Catamaran', sans-serif; */
   /* font-family: 'Dosis', sans-serif; */
 }
 
 .card {
-  background-color: #F7CCBB !important;
+  background-color: #f7ccbb !important;
 }
 
 .card-columns {
@@ -113,13 +117,31 @@ a.title {
 }
 
 @media only screen and (max-width: 760px) {
-  .jumbo h1{
+  .jumbo h1 {
     font-size: 25vw;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .jumbo h1{
-    font-size: 9rem;
+  .jumbo h1 {
+    font-size: 8rem;
+  }
+}
+
+/* Opacity and css transforms = easiest way to animate  */
+.wrapper {
+  text-align: center;
+}
+
+svg {
+  margin: 0 auto;
+  width: 63%;
+  height: auto;
+}
+
+@keyframes animtext {
+  from {
+    width: 0;
+    transition: all 2s ease-in-out;
   }
 }
